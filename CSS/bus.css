@@ -1,0 +1,122 @@
+.busbody{
+	background-image: url("../image/busbody.jpg");
+	background-attachment: fixed;
+	margin: 0px;
+	height: 1100px
+}
+.div_select_parint{
+	width:280px;
+	height:450px;
+	background-color:rgba(0,0,0,0.5)
+
+	border-radius: 20px;
+	margin-right: 10px;
+	padding: 20px;
+	position: relative;
+	float:right
+
+}
+.div_select_plane{
+	width:280px;
+	height: 350px;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 20px;
+	margin-right: 10px;
+	padding: 20px;
+	position: relative;
+	float:right
+}
+.div_select_train{
+	width:280px;
+	height: 350px;
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 20px;
+	margin-right: 10px;
+	padding: 20px;
+	position: relative;
+	float:right
+}
+.select_{
+	min-width:90px;
+	border-radius:20px;	
+	background-color: rgba(0,0,0,0);
+	float: left;
+	font-size:17px;
+	outline: none;
+	margin-right: 10px;
+	position: absolute;
+	left: 10px;
+	color: #d6d6d6
+}
+.select_:hover{
+	background-color: rgba(35,114,181,0.5);
+	cursor: pointer;
+	color: rgb(0,0,0)
+}
+option{
+	font-size:17px
+}
+.Radio_city{
+	position: absolute;
+	right: 10px
+}
+.name_city{
+  margin-right: 0px;
+  color: #d6d6d6
+}
+.div_price{
+	width: 200px;
+	height:370px;
+    background-color: rgba(0,0,0,0.5);	
+	float:right;
+	position: absolute;
+	left: 100px;
+	bottom: 180px;
+	padding: 10px;
+	border-radius: 10px
+}
+.num_chair{
+	float: right;
+	font-size: 17px;
+	font-weight: bold;
+	color: #d6d6d6
+}
+.input_num_chair{
+	background: transparent;
+	border:none;
+	border-bottom:1.5px solid #857ea0;
+    font-size: 16px;
+    font-weight: bold;
+	margin-right: 10px;	
+	text-align: center;
+	outline: none;
+	color: #f4ff44	
+}
+.prag_price{
+	color: #d6d6d6;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center
+}
+.text_price{
+	width: 60px;
+    background: transparent;
+	border: none;
+	border-bottom: 1.5px solid #d6d6d6;
+	color:#f4ff44;
+	font-weight: bold;
+	outline: none;
+    margin-right: 40px
+}
+.prag_2{
+	display: inline;
+	color: #d6d6d6	
+}
+.div_price2{
+	margin-top: 50px;
+    padding-top: 5px;	
+	width: 200px;
+	height: 150px;
+	background: rgba(90,22,22,0.4);
+	border-radius: 10px
+}

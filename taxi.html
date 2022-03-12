@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="CSS/taxi.css">
+</head>
+
+<body class="taxibody">
+	<div class="divbody">
+	<div class="divItem1">
+	   <div class="divItem2">
+		  <div class="divBot1"><a href="about.html" class="a1"><p>حول الشركة</p></a></div>
+		  <div class="divBot1"><a href="centers.html" class="a1"><p class="p2">المراكز</p></a></div>
+		  <div class="divBot1"><a href="wedding.html" class="a1"><p class="p2">قسم الحفلات</p></a></div>
+		  <div class="divBot1"><a href="index.html" class="a1"><p class="p2">قسم السفر</p></a></div>
+	   </div>
+    </div>
+	<div class="divParent">
+		<div class="divcar">
+			<div class="divp"><p >من فضلك أدخل معلوماتك الشخصية لتقوم بالحجز</p></div>
+			<div class="divform">
+			<form class="form"  action="sendinformaiom.html" method="post">
+			
+					<label class="input" id="label_name">الاسم</label>
+					<input type="text" name="name"  class="input" id="name" maxlength="30" placeholder="Name" >
+
+		            <label class="input" id="label_email">Email</label>
+					<input type="email" name="email" class="input" id="idemail"  maxlength="50" placeholder="Email">
+				
+					<label class="input" id="label_phon">رقم الموبايل</label>
+					<input type="text" name="phon" class="input" id="phon" maxlength="9" placeholder="phon">
+			
+		            <label class="input" id="label_numcar">عدد السيارات التي تريد حجزها</label>
+					<input type="number" name="number_car"  id="num_car" step="1" max="30" min="1" value="1" >
+
+					<label class="input" id="label">المحافظة</label>
+                    <div class="div_Radio_parint">
+
+					    <div class="div_Radio"><input type="Radio" name="Radio" class="Radio" id="Damascesid" value="Damasces"> <label class="label2">دمشق </label></div>
+
+					    <div  class="div_Radio"><input type="Radio" name="Radio" class="Radio"> <label class="label2">ريف دمشق</label></div>	
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio" value="Alepo"> <label class="label2">حلب</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio" value="Daraa"> <label class="label2">درعا</label></div> 
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio" value="Homas"> <label class="label2">حمص</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio" value="Hama"> <label class="label2">حماة</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio" value=""><label class="label2">اللاذقية</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio"> <label class="label2">طرطوس</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio"> <label class="label2">الحسكة</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio"> <label class="label2">دير الزور</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio"> <label class="label2">إدلب</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio"> <label class="label2">السويداء</label></div>
+						
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio"> <label class="label2">الرقة</label></div>
+
+						<div  class="div_Radio"><input type="Radio" name="Radio" class="Radio"> <label class="label2">القنيطرة</label></div>
+
+                    </div>
+                    <div class="locaionparint">
+                    	<div><p class="locaion_p">من فضلك أدخل موقعك</p></div>
+                    	<div class="divlocaion"></div>
+                    </div>
+                    <input type="submit" name="send_car" class="send_car" value="أرسال المعلومات" >
+			</form>
+		</div>
+		</div>
+	</div>
+</body>
+</html>

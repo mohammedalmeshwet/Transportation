@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="CSS/taxi.css">
+	<link rel="stylesheet" href="CSS/bus.css">
+</head>
+<body class="busbody">
+	<div class="divbody">
+	  <div class="divItem1">
+		   <div class="divItem2">
+			  <div class="divBot1"><a href="about.html" class="a1"><p>حول الشركة</p></a></div>
+			  <div class="divBot1"><a href="centers.html" class="a1"><p class="p2">المراكز</p></a></div>
+			  <div class="divBot1"><a href="wedding.html" class="a1"><p class="p2">قسم الحفلات</p></a></div>
+			  <div class="divBot1"><a href="index.html" class="a1"><p class="p2">قسم السفر</p></a></div>
+		   </div>
+      </div>
+	<div class="divParent">
+		<div class="divcar">
+			<div class="divp"><p >من فضلك أدخل معلوماتك الشخصية لتقوم بالحجز</p></div>
+			<div class="divform">
+			<form class="form" action="sendinformaiom.html" method="post">
+			
+					<label class="input" id="label_name">الاسم</label>
+					<input type="text" name="name"  class="input" id="name" maxlength="30" placeholder="Name" >
+
+		            <label class="input" id="label_email">Email</label>
+					<input type="email" name="email" class="input" id="idemail"  maxlength="50" placeholder="Email">
+				
+					<label class="input" id="label_phon">رقم الموبايل</label>
+					<input type="text" name="phon" class="input" id="phon" maxlength="9" placeholder="phon">
+		
+						<label class="input" id="label">السفرمن.....إلى.....</label>
+                 <div class="div_select_parint" >
+                    <ol>
+                      		<!--   1    -->
+                       <li type="none">
+                            <input type="Radio" name="city"  class="Radio_city">
+                            <label class="name_city">من دمشق إلى</label>
+					        <select class="select_">
+								  	<option>ريف دمشق</option>
+								  	<option>حلب</option>
+								  	<option>درعا</option>
+								  	<option>السويداء</option>
+								  	<option>القنيطرة</option>
+								  	<option>دير الزور</option>
+								  	<option>حمص</option>
+								  	<option>طرطوس</option>
+								  	<option>حماة</option>
+								  	<option>اللاذقية</option>
+								  	<option>الحسكة</option>
+								  	<option>الرقة</option>
+								  	<option>إدلب</option>
+						    </select>
+                       </li>
+
+                            <!--   2   -->
+
+                       <li type="none">
+	                        <input type="Radio" name="city"  class="Radio_city">
+					        <label  class="name_city">من حلب إلى</label>
+					        <select class="select_">
+							  	<option>دمشق</option>
+							  	<option>ريف دمشق</option>
+							  	<option>درعا</option>
+							  	<option>السويداء</option>
+							  	<option>القنيطرة</option>
+							  	<option>دير الزور</option>
+							  	<option>حمص</option>
+							  	<option>طرطوس</option>
+							  	<option>حماة</option>
+							  	<option>اللاذقية</option>
+							  	<option>الحسكة</option>
+							  	<option>الرقة</option>
+							  	<option>إدلب</option>
+	                       </select>
+ 	             	  </li>
+
+ 	             	      <!--   3   -->
+
+                      <li type="none">
+	                       <input type="Radio" name="city" class="Radio_city">
+				       	   <label class="name_city">من ريف دمشق إلى</label>
+					       <select class="select_">
+							  	<option>دمشق</option>
+							  	<option>حلب</option>
+							  	<option>درعا</option>
+							  	<option>السويداء</option>
+							  	<option>القنيطرة</option>
+							  	<option>دير الزور</option>
+							  	<option>حمص</option>
+							  	<option>طرطوس</option>
+							  	<option>حماة</option>
+							  	<option>اللاذقية</option>
+							  	<option>الحسكة</option>
+							  	<option>الرقة</option>
+							  	<option>إدلب</option>
+	                       </select>
+	                 </li>
+ 
+                            <!--   4   -->
+
+ 	                     <li type="none">
+ 		                        <input type="Radio" name="city"  class="Radio_city">
+					  	  	   	<label  class="name_city">من درعا إلى</label>
+					            <select class="select_">
+								  	<option>دمشق</option>
+								  	<option>ريف دمشق</option>
+								  	<option>حلب</option>
+								  	<option>السويداء</option>
+								  	<option>القنيطرة</option>
+								  	<option>دير الزور</option>
+								  	<option>حمص</option>
+								  	<option>طرطوس</option>
+								  	<option>حماة</option>
+								  	<option>اللاذقية</option>
+								  	<option>الحسكة</option>
+								  	<option>الرقة</option>
+								  	<option>إدلب</option>
+					            </select>
+
+                          </li>   
+
+                             <!--   5   -->
+	            
+	                        <li type="none">
+	                           <input type="Radio" name="city" class="Radio_city">
+					           <label class="name_city">من السويداء إلى</label>
+					           <select class="select_">
+								  	<option>دمشق</option>
+								  	<option>ريف دمشق</option>
+								  	<option>حلب</option>
+								  	<option>درعا</option>
+								  	<option>القنيطرة</option>
+								  	<option>دير الزور</option>
+								  	<option>حمص</option>
+								  	<option>طرطوس</option>
+								  	<option>حماة</option>
+								  	<option>اللاذقية</option>
+								  	<option>الحسكة</option>
+								  	<option>الرقة</option>
+								  	<option>إدلب</option>
+	                           </select>
+	                       </li>
+                                     <!--   6  -->
+
+						    <li type="none">
+							     <input type="Radio" name="city" class="Radio_city">
+						         <label class="name_city">من القنيطرة إلى</label>
+								 <select class="select_">
+										<option>دمشق</option>
+										<option>ريف دمشق</option>
+										<option>حلب</option>
+										<option>السويداء</option>
+										<option>درعا</option>
+										<option>دير الزور</option>
+										<option>حمص</option>
+										<option>طرطوس</option>
+										<option>حماة</option>
+									  	<option>اللاذقية</option>
+										<option>الحسكة</option>
+										<option>الرقة</option>
+									  	<option>إدلب</option>
+							     </select>
+						    </li>
+
+                                     <!--   7  -->
+
+                            <li type="none">
+	                             <input type="Radio" name="city" class="Radio_city">
+					             <label class="name_city">من دير الزور إلى</label>
+					             <select class="select_">
+									<option>دمشق</option>
+									<option>ريف دمشق</option>
+									<option>حلب</option>
+									<option>السويداء</option>
+									<option>درعا</option>
+									<option>القنيطرة</option>
+									<option>حمص</option>
+								    <option>طرطوس</option>
+									<option>حماة</option>
+								    <option>اللاذقية</option>
+								    <option>الحسكة</option>
+								    <option>الرقة</option>
+								    <option>إدلب</option>
+	                            </select>
+	                        </li>
+
+                                  <!--   8  -->
+
+                            <li type="none">
+	                              <input type="Radio" name="city" class="Radio_city">
+					              <label class="name_city">من حمص إلى</label>
+					              <select class="select_">
+									  	<option>دمشق</option>
+									  	<option>ريف دمشق</option>
+									  	<option>حلب</option>
+									  	<option>السويداء</option>
+									  	<option>درعا</option>
+									  	<option>القنيطرة</option>
+									  	<option>دير الزور</option>
+									  	<option>طرطوس</option>
+									  	<option>حماة</option>
+									  	<option>اللاذقية</option>
+									  	<option>الحسكة</option>
+									  	<option>الرقة</option>
+									  	<option>إدلب</option>
+	                               </select>
+	                        </li>
+
+	                                <!--  9 -->
+
+                            <li type="none">
+	                              <input type="Radio" name="city" class="Radio_city">
+					              <label class="name_city">من طرطوس إلى</label>
+					              <select class="select_">
+									  	<option>دمشق</option>
+									  	<option>ريف دمشق</option>
+									  	<option>حلب</option>
+									  	<option>السويداء</option>
+									  	<option>درعا</option>
+									  	<option>القنيطرة</option>
+									  	<option>دير الزور</option>
+									  	<option>حمص</option>
+									  	<option>حماة</option>
+									  	<option>اللاذقية</option>
+									  	<option>الحسكة</option>
+									  	<option>الرقة</option>
+									  	<option>إدلب</option>
+	                               </select>
+	                        </li>
+
+	                             <!--  10  -->
+                             
+	                        <li type="none">
+	                             <input type="Radio" name="city" class="Radio_city">
+					             <label class="name_city">من حماة إلى</label>
+					             <select class="select_">
+									  	<option>دمشق</option>
+									  	<option>ريف دمشق</option>
+									  	<option>حلب</option>
+									  	<option>السويداء</option>
+									  	<option>درعا</option>
+									  	<option>القنيطرة</option>
+									  	<option>دير الزور</option>
+									  	<option>حمص</option>
+									  	<option>طرطوس</option>
+									  	<option>اللاذقية</option>
+									  	<option>الحسكة</option>
+									  	<option>الرقة</option>
+									  	<option>إدلب</option>
+	                 			 </select>
+	                        </li>
+
+                              <!-- 11  -->	                    
+ 
+	                        <li type="none">
+						 		<input type="Radio" name="city" class="Radio_city">
+					    	    <label class="name_city">من اللاذقية إلى</label>
+					  			<select class="select_">
+								  	<option>دمشق</option>
+								  	<option>ريف دمشق</option>
+								  	<option>حلب</option>
+								  	<option>السويداء</option>
+								  	<option>درعا</option>
+								  	<option>القنيطرة</option>
+								  	<option>دير الزور</option>
+								  	<option>حمص</option>
+								  	<option>طرطوس</option>
+								  	<option>حماة</option>
+								  	<option>الحسكة</option>
+								  	<option>الرقة</option>
+								  	<option>إدلب</option>
+	                 		    </select>
+	            		    </li>
+
+	            		    <!-- 12 -->
+
+	                        <li type="none">
+								<input type="Radio" name="city" class="Radio_city">
+							    <label class="name_city">من الحسكة إلى</label>
+						    	<select class="select_">
+								  	<option>دمشق</option>
+								  	<option>ريف دمشق</option>
+								  	<option>حلب</option>
+								  	<option>السويداء</option>
+								  	<option>درعا</option>
+								  	<option>القنيطرة</option>
+								  	<option>دير الزور</option>
+								  	<option>حمص</option>
+								  	<option>طرطوس</option>
+								  	<option>حماة</option>
+								  	<option>اللاذقية</option>
+								  	<option>الرقة</option>
+								  	<option>إدلب</option>
+	                 		    </select>
+	             		    </li>
+
+                            <!--  13  -->
+
+	                       <li type="none">
+	                         	<input type="Radio" name="city" class="Radio_city">
+	 						    <label class="name_city">من الرقة إلى</label>
+			   				    <select class="select_">
+								  	<option>دمشق</option>
+								  	<option>ريف دمشق</option>
+								  	<option>حلب</option>
+								  	<option>السويداء</option>
+								  	<option>درعا</option>
+								  	<option>القنيطرة</option>
+								  	<option>دير الزور</option>
+								  	<option>حمص</option>
+								  	<option>طرطوس</option>
+								  	<option>حماة</option>
+								  	<option>اللاذقية</option>
+								  	<option>الحسكة</option>
+								  	<option>إدلب</option>
+	                            </select>
+	                      </li>
+
+                           <!--  14  -->
+      
+	                       <li type="none">
+                            	<input type="Radio" name="city" class="Radio_city">
+				           	    <label class="name_city">من إدلب إلى</label>
+					            <select class="select_">
+								 	  	<option>دمشق</option>
+									  	<option>ريف دمشق</option>
+									  	<option>حلب</option>
+									  	<option>السويداء</option>
+									  	<option>درعا</option>
+									  	<option>القنيطرة</option>
+									  	<option>دير الزور</option>
+									  	<option>حمص</option>
+									  	<option>طرطوس</option>
+									  	<option>حماة</option>
+									  	<option>اللاذقية</option>
+									  	<option>الحسكة</option>
+									  	<option>الرقة</option>
+				                        </select>
+	                       </li>
+	            </ol>
+          </div>
+          <div class="div_price">
+              	<div class="num_chair">عدد الكراسي : </div>
+              	<input  type="number" name="" class="input_num_chair" id="number-car" min="1" max="30" >
+              	<br>
+              	<br>
+              		<div class="div_price2">
+              	<p class="prag_price">السعر الإجمالي</p>
+              
+              	<input type="text" name="" id="allPrice" class="text_price"> <p class="prag_2">ل.س</p>
+           </div>	
+              </div>
+                 <input type="submit" name="send_car" class="send_car" value="أرسال المعلومات"  >
+			
+			</form>
+		</div>
+		</div>
+	</div>
+        <script src="Untitled-1.js"></script>
+</body>
+</html>
